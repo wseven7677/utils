@@ -1,3 +1,5 @@
+// （来自网络 本人重写）
+// 查询某个子节点的每一级上级
 function searchParents(id, arr, path) {
     if (!path) {
         path = [];
