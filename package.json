@@ -1,15 +1,15 @@
 {
-  "name": "ws-utils",
+  "name": "w7677utils",
   "version": "1.0.0",
   "description": "just utils",
-  "main": "dist/ws-utils.min.js",
+  "main": "dist/w7677utils.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --config webpack.config.js --progress --color --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wseven7677/ws-utils.git"
+    "url": "git+https://github.com/wseven7677/w7677utils.git"
   },
   "keywords": [
     "utils"
@@ -17,9 +17,9 @@
   "author": "wseven7677",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wseven7677/ws-utils/issues"
+    "url": "https://github.com/wseven7677/w7677utils/issues"
   },
-  "homepage": "https://github.com/wseven7677/ws-utils#readme",
+  "homepage": "https://github.com/wseven7677/w7677utils#readme",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "babel-loader": "^8.0.5",

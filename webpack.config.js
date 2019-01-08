@@ -4,8 +4,8 @@ module.exports = {
     entry: __dirname + '/utils/index.js',
     output: {
         path: __dirname + '/dist',
-        filename: 'ws-utils.min.js',
-        library: 'ws-utils',
+        filename: 'w7677utils.min.js',
+        library: 'w7677utils',
         libraryTarget: 'umd'
     },
     module: {
