@@ -2,7 +2,7 @@
   "name": "ws-utils",
   "version": "1.0.0",
   "description": "just utils",
-  "main": "bfs.js",
+  "main": "dist/ws-utils.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --config webpack.config.js --progress --color --watch"
