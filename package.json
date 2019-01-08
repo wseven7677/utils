@@ -1,6 +1,6 @@
 {
   "name": "w7677utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "just utils",
   "main": "dist/w7677utils.min.js",
   "scripts": {
