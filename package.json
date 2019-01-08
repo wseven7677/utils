@@ -1,0 +1,29 @@
+{
+  "name": "ws-utils",
+  "version": "1.0.0",
+  "description": "just utils",
+  "main": "bfs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --config webpack.config.js --progress --color --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wseven7677/ws-utils.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "wseven7677",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wseven7677/ws-utils/issues"
+  },
+  "homepage": "https://github.com/wseven7677/ws-utils#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.1"
+  }
+}
