@@ -4,12 +4,13 @@
  * ===
  * localStorage 功能封装
  * ===
-    * usage:
+  * usage:
     * let param = {
     *   data: [],
     *   local: 'prj-setting'
     * };
-    * localstore(param).set(); 
+    * localstore(param); // 初始化。如果localstorage里有值也不会同步出来。 
+    * localstore(param).set([val]); 
     * localstore(param).get(); // get后改变引用，从而实现数据同步
  * 
  * @param  {Object}   obj      传入的配置
@@ -41,11 +42,16 @@ function localstore(obj) {
         get() {
             ls = JSON.parse(localStorage.getItem(local));
             obj.data = ls;
-
+            return ls;
         },
-        set() {
-            localStorage.setItem(local, JSON.stringify(data));
-            ls = data;
+        set(val) {
+            if(val) {
+                localStorage.setItem(local, JSON.stringify(val));
+                ls = val;
+            }else {
+                localStorage.setItem(local, JSON.stringify(data));
+                ls = data;
+            }
         }
     };
 }
